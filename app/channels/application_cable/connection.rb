@@ -15,5 +15,13 @@ module ApplicationCable
         reject_unauthorized_connection
       end
     end
+
+    # def find_verified_user
+    #   if verified_user = User.find_by(id: cookies.encrypted[:user_id])
+    #     verified_user
+    #   else
+    #     reject_unauthorized_connection
+    #   end
+    # end
   end
 end
